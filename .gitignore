@@ -1,0 +1,61 @@
+# Unreal Engine files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Unreal Engine build files
+**/Binaries/*
+**/DerivedDataCache/*
+**/Intermediate/*
+**/Saved/*
+
+# Unreal Engine asset files (for Git LFS)
+*.uasset
+*.umap
+*.uplugin
+*.pak
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+
+# Data files (will be in specific Data/ folder)
+*.csv
+*.json
+!Data/*.json
+!Data/*.csv
