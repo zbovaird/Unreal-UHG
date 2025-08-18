@@ -1,18 +1,21 @@
 {
   "network_stats": {
-    "total_nodes": 3,
-    "total_edges": 2,
-    "avg_degree": 1.33,
+    "total_nodes": 100,
+    "total_edges": 199,
+    "avg_degree": 3.98,
     "attack_distribution": {
-      "BENIGN": 1,
-      "DoS Hulk": 1,
-      "PortScan": 1
+      "BENIGN": 61,
+      "DoS GoldenEye": 12,
+      "DDoS": 9,
+      "DoS Hulk": 9,
+      "Bot": 5,
+      "PortScan": 4
     }
   },
   "visualization_hints": {
     "node_colors": {
       "benign": "green",
-      "dos_attack": "red", 
+      "dos_attack": "red",
       "other_attack": "orange"
     },
     "edge_colors": {
