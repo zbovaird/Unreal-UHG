@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "dataset_name": "CIC IDS Dataset Sample",
+    "model_type": "UHG GraphSAGE", 
+    "sample_size": 1000,
+    "sample_percentage": 5.0,
+    "total_nodes": 50,
+    "total_edges": 100,
+    "num_classes": 8,
+    "features_dim": 78,
+    "k_neighbors": 2,
+    "has_model_predictions": true
+  },
+  "label_mapping": {
+    "BENIGN": 0,
+    "DoS Hulk": 1,
+    "DoS GoldenEye": 2,
+    "DoS slowloris": 3,
+    "DoS Slowhttptest": 4,
+    "DDoS": 5,
+    "PortScan": 6,
+    "Bot": 7
+  },
+  "attack_types": {
+    "benign": ["BENIGN"],
+    "dos_attacks": ["DoS Hulk", "DoS GoldenEye", "DoS slowloris", "DoS Slowhttptest", "DDoS"],
+    "other_attacks": ["PortScan", "Bot"]
+  },
+  "nodes": [
+    {
+      "id": "node_0",
+      "label": "Device_0",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.95,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {"x": 0, "y": 0, "z": 0}
+    },
+    {
+      "id": "node_1", 
+      "label": "Device_1",
+      "attack_type": "DoS Hulk",
+      "predicted_class": 1,
+      "confidence": 0.88,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {"x": 100, "y": 50, "z": 25}
+    },
+    {
+      "id": "node_2",
+      "label": "Device_2", 
+      "attack_type": "PortScan",
+      "predicted_class": 6,
+      "confidence": 0.82,
+      "threat_level": "medium",
+      "color": "orange",
+      "is_benign": false,
+      "position": {"x": -50, "y": 75, "z": -30}
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "source": "node_0",
+      "target": "node_1",
+      "source_idx": 0,
+      "target_idx": 1,
+      "edge_type": "suspicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_1",
+      "source": "node_0", 
+      "target": "node_2",
+      "source_idx": 0,
+      "target_idx": 2,
+      "edge_type": "suspicious",
+      "color": "red", 
+      "weight": 1.0
+    }
+  ]
+}

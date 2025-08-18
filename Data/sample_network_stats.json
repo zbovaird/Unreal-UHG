@@ -1,0 +1,29 @@
+{
+  "network_stats": {
+    "total_nodes": 3,
+    "total_edges": 2,
+    "avg_degree": 1.33,
+    "attack_distribution": {
+      "BENIGN": 1,
+      "DoS Hulk": 1,
+      "PortScan": 1
+    }
+  },
+  "visualization_hints": {
+    "node_colors": {
+      "benign": "green",
+      "dos_attack": "red", 
+      "other_attack": "orange"
+    },
+    "edge_colors": {
+      "normal": "blue",
+      "suspicious": "red",
+      "unknown": "gray"
+    },
+    "recommended_layout": {
+      "node_scale": 100,
+      "edge_thickness_base": 1.0,
+      "camera_distance": 500
+    }
+  }
+}
