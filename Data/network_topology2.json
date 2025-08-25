@@ -9,7 +9,18 @@
     "num_classes": 6,
     "features_dim": 78,
     "k_neighbors": 2,
-    "has_model_predictions": false
+    "has_model_predictions": false,
+    "edge_distribution": {
+      "normal": 179,
+      "suspicious": 9,
+      "malicious": 11,
+      "total": 199
+    },
+    "edge_color_scheme": {
+      "blue": "normal/benign traffic",
+      "orange": "suspicious activity",
+      "red": "malicious/attack traffic"
+    }
   },
   "label_mapping": {
     "BENIGN": 0,
@@ -1642,8 +1653,8 @@
       "target": "node_46",
       "source_idx": 48,
       "target_idx": 46,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1672,8 +1683,8 @@
       "target": "node_44",
       "source_idx": 2,
       "target_idx": 44,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1682,8 +1693,8 @@
       "target": "node_67",
       "source_idx": 25,
       "target_idx": 67,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1702,8 +1713,8 @@
       "target": "node_38",
       "source_idx": 39,
       "target_idx": 38,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1712,8 +1723,8 @@
       "target": "node_26",
       "source_idx": 6,
       "target_idx": 26,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1722,8 +1733,8 @@
       "target": "node_48",
       "source_idx": 65,
       "target_idx": 48,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1742,8 +1753,8 @@
       "target": "node_60",
       "source_idx": 1,
       "target_idx": 60,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1752,8 +1763,8 @@
       "target": "node_88",
       "source_idx": 33,
       "target_idx": 88,
-      "edge_type": "normal",
-      "color": "blue",
+      "edge_type": "malicious",
+      "color": "red",
       "weight": 1.0
     },
     {
@@ -1762,8 +1773,8 @@
       "target": "node_28",
       "source_idx": 59,
       "target_idx": 28,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1772,8 +1783,8 @@
       "target": "node_35",
       "source_idx": 26,
       "target_idx": 35,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1782,8 +1793,8 @@
       "target": "node_47",
       "source_idx": 44,
       "target_idx": 47,
-      "edge_type": "normal",
-      "color": "blue",
+      "edge_type": "suspicious",
+      "color": "orange",
       "weight": 1.0
     },
     {
@@ -1832,8 +1843,8 @@
       "target": "node_49",
       "source_idx": 6,
       "target_idx": 49,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1842,8 +1853,8 @@
       "target": "node_78",
       "source_idx": 7,
       "target_idx": 78,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1852,8 +1863,8 @@
       "target": "node_12",
       "source_idx": 50,
       "target_idx": 12,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1862,8 +1873,8 @@
       "target": "node_62",
       "source_idx": 30,
       "target_idx": 62,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1872,8 +1883,8 @@
       "target": "node_90",
       "source_idx": 18,
       "target_idx": 90,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1882,8 +1893,8 @@
       "target": "node_69",
       "source_idx": 71,
       "target_idx": 69,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1902,8 +1913,8 @@
       "target": "node_84",
       "source_idx": 28,
       "target_idx": 84,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1932,8 +1943,8 @@
       "target": "node_35",
       "source_idx": 31,
       "target_idx": 35,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1942,8 +1953,8 @@
       "target": "node_35",
       "source_idx": 24,
       "target_idx": 35,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1952,8 +1963,8 @@
       "target": "node_49",
       "source_idx": 21,
       "target_idx": 49,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1962,8 +1973,8 @@
       "target": "node_35",
       "source_idx": 33,
       "target_idx": 35,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -1972,7 +1983,7 @@
       "target": "node_35",
       "source_idx": 81,
       "target_idx": 35,
-      "edge_type": "suspicious",
+      "edge_type": "malicious",
       "color": "red",
       "weight": 1.0
     },
@@ -1992,8 +2003,8 @@
       "target": "node_42",
       "source_idx": 54,
       "target_idx": 42,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2012,8 +2023,8 @@
       "target": "node_59",
       "source_idx": 76,
       "target_idx": 59,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2042,7 +2053,7 @@
       "target": "node_35",
       "source_idx": 55,
       "target_idx": 35,
-      "edge_type": "suspicious",
+      "edge_type": "malicious",
       "color": "red",
       "weight": 1.0
     },
@@ -2052,8 +2063,8 @@
       "target": "node_53",
       "source_idx": 58,
       "target_idx": 53,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2062,8 +2073,8 @@
       "target": "node_71",
       "source_idx": 33,
       "target_idx": 71,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2072,8 +2083,8 @@
       "target": "node_70",
       "source_idx": 8,
       "target_idx": 70,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2092,8 +2103,8 @@
       "target": "node_85",
       "source_idx": 39,
       "target_idx": 85,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2112,8 +2123,8 @@
       "target": "node_15",
       "source_idx": 11,
       "target_idx": 15,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2122,8 +2133,8 @@
       "target": "node_56",
       "source_idx": 26,
       "target_idx": 56,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2132,8 +2143,8 @@
       "target": "node_95",
       "source_idx": 57,
       "target_idx": 95,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2142,8 +2153,8 @@
       "target": "node_12",
       "source_idx": 19,
       "target_idx": 12,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2182,8 +2193,8 @@
       "target": "node_57",
       "source_idx": 0,
       "target_idx": 57,
-      "edge_type": "normal",
-      "color": "blue",
+      "edge_type": "malicious",
+      "color": "red",
       "weight": 1.0
     },
     {
@@ -2192,8 +2203,8 @@
       "target": "node_30",
       "source_idx": 63,
       "target_idx": 30,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2202,8 +2213,8 @@
       "target": "node_72",
       "source_idx": 11,
       "target_idx": 72,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2212,8 +2223,8 @@
       "target": "node_82",
       "source_idx": 22,
       "target_idx": 82,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2222,7 +2233,7 @@
       "target": "node_40",
       "source_idx": 7,
       "target_idx": 40,
-      "edge_type": "suspicious",
+      "edge_type": "malicious",
       "color": "red",
       "weight": 1.0
     },
@@ -2232,8 +2243,8 @@
       "target": "node_46",
       "source_idx": 52,
       "target_idx": 46,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2262,8 +2273,8 @@
       "target": "node_29",
       "source_idx": 76,
       "target_idx": 29,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2272,8 +2283,8 @@
       "target": "node_25",
       "source_idx": 46,
       "target_idx": 25,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2282,8 +2293,8 @@
       "target": "node_11",
       "source_idx": 99,
       "target_idx": 11,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2292,8 +2303,8 @@
       "target": "node_25",
       "source_idx": 30,
       "target_idx": 25,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2302,8 +2313,8 @@
       "target": "node_7",
       "source_idx": 14,
       "target_idx": 7,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2312,8 +2323,8 @@
       "target": "node_61",
       "source_idx": 91,
       "target_idx": 61,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2322,8 +2333,8 @@
       "target": "node_68",
       "source_idx": 36,
       "target_idx": 68,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2332,8 +2343,8 @@
       "target": "node_25",
       "source_idx": 64,
       "target_idx": 25,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2342,8 +2353,8 @@
       "target": "node_65",
       "source_idx": 17,
       "target_idx": 65,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2352,8 +2363,8 @@
       "target": "node_70",
       "source_idx": 11,
       "target_idx": 70,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2362,8 +2373,8 @@
       "target": "node_92",
       "source_idx": 21,
       "target_idx": 92,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2372,8 +2383,8 @@
       "target": "node_45",
       "source_idx": 83,
       "target_idx": 45,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2382,8 +2393,8 @@
       "target": "node_54",
       "source_idx": 60,
       "target_idx": 54,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2392,8 +2403,8 @@
       "target": "node_95",
       "source_idx": 22,
       "target_idx": 95,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2412,8 +2423,8 @@
       "target": "node_61",
       "source_idx": 2,
       "target_idx": 61,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2432,8 +2443,8 @@
       "target": "node_16",
       "source_idx": 32,
       "target_idx": 16,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2462,8 +2473,8 @@
       "target": "node_4",
       "source_idx": 36,
       "target_idx": 4,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2492,8 +2503,8 @@
       "target": "node_6",
       "source_idx": 81,
       "target_idx": 6,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2522,8 +2533,8 @@
       "target": "node_16",
       "source_idx": 49,
       "target_idx": 16,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2542,8 +2553,8 @@
       "target": "node_71",
       "source_idx": 16,
       "target_idx": 71,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2552,8 +2563,8 @@
       "target": "node_52",
       "source_idx": 54,
       "target_idx": 52,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2572,8 +2583,8 @@
       "target": "node_10",
       "source_idx": 58,
       "target_idx": 10,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2582,8 +2593,8 @@
       "target": "node_19",
       "source_idx": 36,
       "target_idx": 19,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2592,8 +2603,8 @@
       "target": "node_5",
       "source_idx": 96,
       "target_idx": 5,
-      "edge_type": "normal",
-      "color": "blue",
+      "edge_type": "suspicious",
+      "color": "orange",
       "weight": 1.0
     },
     {
@@ -2602,8 +2613,8 @@
       "target": "node_30",
       "source_idx": 92,
       "target_idx": 30,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2612,8 +2623,8 @@
       "target": "node_71",
       "source_idx": 59,
       "target_idx": 71,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2622,8 +2633,8 @@
       "target": "node_59",
       "source_idx": 74,
       "target_idx": 59,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2632,8 +2643,8 @@
       "target": "node_92",
       "source_idx": 84,
       "target_idx": 92,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2653,7 +2664,7 @@
       "source_idx": 32,
       "target_idx": 37,
       "edge_type": "suspicious",
-      "color": "red",
+      "color": "orange",
       "weight": 1.0
     },
     {
@@ -2662,8 +2673,8 @@
       "target": "node_74",
       "source_idx": 4,
       "target_idx": 74,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2672,8 +2683,8 @@
       "target": "node_18",
       "source_idx": 84,
       "target_idx": 18,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2692,8 +2703,8 @@
       "target": "node_4",
       "source_idx": 18,
       "target_idx": 4,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2702,8 +2713,8 @@
       "target": "node_87",
       "source_idx": 96,
       "target_idx": 87,
-      "edge_type": "normal",
-      "color": "blue",
+      "edge_type": "malicious",
+      "color": "red",
       "weight": 1.0
     },
     {
@@ -2712,8 +2723,8 @@
       "target": "node_68",
       "source_idx": 65,
       "target_idx": 68,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2722,8 +2733,8 @@
       "target": "node_11",
       "source_idx": 76,
       "target_idx": 11,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2742,8 +2753,8 @@
       "target": "node_6",
       "source_idx": 91,
       "target_idx": 6,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2752,8 +2763,8 @@
       "target": "node_73",
       "source_idx": 44,
       "target_idx": 73,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2772,8 +2783,8 @@
       "target": "node_33",
       "source_idx": 32,
       "target_idx": 33,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2782,8 +2793,8 @@
       "target": "node_31",
       "source_idx": 82,
       "target_idx": 31,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2792,8 +2803,8 @@
       "target": "node_86",
       "source_idx": 35,
       "target_idx": 86,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2812,8 +2823,8 @@
       "target": "node_69",
       "source_idx": 54,
       "target_idx": 69,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2822,8 +2833,8 @@
       "target": "node_99",
       "source_idx": 73,
       "target_idx": 99,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2832,8 +2843,8 @@
       "target": "node_85",
       "source_idx": 71,
       "target_idx": 85,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2842,8 +2853,8 @@
       "target": "node_9",
       "source_idx": 56,
       "target_idx": 9,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2852,8 +2863,8 @@
       "target": "node_1",
       "source_idx": 51,
       "target_idx": 1,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2862,7 +2873,7 @@
       "target": "node_38",
       "source_idx": 13,
       "target_idx": 38,
-      "edge_type": "suspicious",
+      "edge_type": "malicious",
       "color": "red",
       "weight": 1.0
     },
@@ -2882,8 +2893,8 @@
       "target": "node_75",
       "source_idx": 48,
       "target_idx": 75,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2892,8 +2903,8 @@
       "target": "node_39",
       "source_idx": 35,
       "target_idx": 39,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2912,8 +2923,8 @@
       "target": "node_82",
       "source_idx": 30,
       "target_idx": 82,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2932,8 +2943,8 @@
       "target": "node_36",
       "source_idx": 51,
       "target_idx": 36,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2942,8 +2953,8 @@
       "target": "node_55",
       "source_idx": 74,
       "target_idx": 55,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2952,8 +2963,8 @@
       "target": "node_82",
       "source_idx": 78,
       "target_idx": 82,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2962,8 +2973,8 @@
       "target": "node_71",
       "source_idx": 56,
       "target_idx": 71,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2982,8 +2993,8 @@
       "target": "node_35",
       "source_idx": 15,
       "target_idx": 35,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -2992,8 +3003,8 @@
       "target": "node_46",
       "source_idx": 35,
       "target_idx": 46,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3003,7 +3014,7 @@
       "source_idx": 91,
       "target_idx": 11,
       "edge_type": "suspicious",
-      "color": "red",
+      "color": "orange",
       "weight": 1.0
     },
     {
@@ -3012,8 +3023,8 @@
       "target": "node_3",
       "source_idx": 2,
       "target_idx": 3,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3022,8 +3033,8 @@
       "target": "node_76",
       "source_idx": 4,
       "target_idx": 76,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3043,7 +3054,7 @@
       "source_idx": 89,
       "target_idx": 77,
       "edge_type": "suspicious",
-      "color": "red",
+      "color": "orange",
       "weight": 1.0
     },
     {
@@ -3052,8 +3063,8 @@
       "target": "node_41",
       "source_idx": 54,
       "target_idx": 41,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3062,8 +3073,8 @@
       "target": "node_1",
       "source_idx": 12,
       "target_idx": 1,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3072,8 +3083,8 @@
       "target": "node_62",
       "source_idx": 91,
       "target_idx": 62,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3102,8 +3113,8 @@
       "target": "node_83",
       "source_idx": 52,
       "target_idx": 83,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3112,8 +3123,8 @@
       "target": "node_59",
       "source_idx": 39,
       "target_idx": 59,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3122,8 +3133,8 @@
       "target": "node_89",
       "source_idx": 52,
       "target_idx": 89,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3132,8 +3143,8 @@
       "target": "node_48",
       "source_idx": 76,
       "target_idx": 48,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3142,8 +3153,8 @@
       "target": "node_97",
       "source_idx": 46,
       "target_idx": 97,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3152,8 +3163,8 @@
       "target": "node_25",
       "source_idx": 88,
       "target_idx": 25,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3162,8 +3173,8 @@
       "target": "node_5",
       "source_idx": 89,
       "target_idx": 5,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3192,8 +3203,8 @@
       "target": "node_54",
       "source_idx": 91,
       "target_idx": 54,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3202,8 +3213,8 @@
       "target": "node_68",
       "source_idx": 95,
       "target_idx": 68,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3213,7 +3224,7 @@
       "source_idx": 71,
       "target_idx": 35,
       "edge_type": "suspicious",
-      "color": "red",
+      "color": "orange",
       "weight": 1.0
     },
     {
@@ -3222,8 +3233,8 @@
       "target": "node_27",
       "source_idx": 14,
       "target_idx": 27,
-      "edge_type": "normal",
-      "color": "blue",
+      "edge_type": "malicious",
+      "color": "red",
       "weight": 1.0
     },
     {
@@ -3232,8 +3243,8 @@
       "target": "node_26",
       "source_idx": 64,
       "target_idx": 26,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3243,7 +3254,7 @@
       "source_idx": 31,
       "target_idx": 36,
       "edge_type": "suspicious",
-      "color": "red",
+      "color": "orange",
       "weight": 1.0
     },
     {
@@ -3252,8 +3263,8 @@
       "target": "node_86",
       "source_idx": 8,
       "target_idx": 86,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3272,8 +3283,8 @@
       "target": "node_60",
       "source_idx": 7,
       "target_idx": 60,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3283,7 +3294,7 @@
       "source_idx": 6,
       "target_idx": 42,
       "edge_type": "suspicious",
-      "color": "red",
+      "color": "orange",
       "weight": 1.0
     },
     {
@@ -3292,8 +3303,8 @@
       "target": "node_2",
       "source_idx": 90,
       "target_idx": 2,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3302,8 +3313,8 @@
       "target": "node_3",
       "source_idx": 59,
       "target_idx": 3,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3332,8 +3343,8 @@
       "target": "node_14",
       "source_idx": 67,
       "target_idx": 14,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3342,8 +3353,8 @@
       "target": "node_70",
       "source_idx": 20,
       "target_idx": 70,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3363,7 +3374,7 @@
       "source_idx": 46,
       "target_idx": 30,
       "edge_type": "suspicious",
-      "color": "red",
+      "color": "orange",
       "weight": 1.0
     },
     {
@@ -3372,8 +3383,8 @@
       "target": "node_54",
       "source_idx": 44,
       "target_idx": 54,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3392,8 +3403,8 @@
       "target": "node_35",
       "source_idx": 24,
       "target_idx": 35,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3402,7 +3413,7 @@
       "target": "node_67",
       "source_idx": 34,
       "target_idx": 67,
-      "edge_type": "suspicious",
+      "edge_type": "malicious",
       "color": "red",
       "weight": 1.0
     },
@@ -3412,8 +3423,8 @@
       "target": "node_74",
       "source_idx": 14,
       "target_idx": 74,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3422,8 +3433,8 @@
       "target": "node_49",
       "source_idx": 15,
       "target_idx": 49,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3432,8 +3443,8 @@
       "target": "node_26",
       "source_idx": 75,
       "target_idx": 26,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3442,8 +3453,8 @@
       "target": "node_68",
       "source_idx": 54,
       "target_idx": 68,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3462,8 +3473,8 @@
       "target": "node_38",
       "source_idx": 5,
       "target_idx": 38,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3472,8 +3483,8 @@
       "target": "node_80",
       "source_idx": 32,
       "target_idx": 80,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3492,8 +3503,8 @@
       "target": "node_14",
       "source_idx": 25,
       "target_idx": 14,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3502,8 +3513,8 @@
       "target": "node_2",
       "source_idx": 41,
       "target_idx": 2,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3522,8 +3533,8 @@
       "target": "node_83",
       "source_idx": 70,
       "target_idx": 83,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3532,8 +3543,8 @@
       "target": "node_31",
       "source_idx": 6,
       "target_idx": 31,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3542,7 +3553,7 @@
       "target": "node_63",
       "source_idx": 70,
       "target_idx": 63,
-      "edge_type": "suspicious",
+      "edge_type": "malicious",
       "color": "red",
       "weight": 1.0
     },
@@ -3572,8 +3583,8 @@
       "target": "node_89",
       "source_idx": 55,
       "target_idx": 89,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3592,7 +3603,7 @@
       "target": "node_95",
       "source_idx": 65,
       "target_idx": 95,
-      "edge_type": "suspicious",
+      "edge_type": "malicious",
       "color": "red",
       "weight": 1.0
     },
@@ -3602,8 +3613,8 @@
       "target": "node_1",
       "source_idx": 87,
       "target_idx": 1,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3612,8 +3623,8 @@
       "target": "node_79",
       "source_idx": 63,
       "target_idx": 79,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     },
     {
@@ -3622,8 +3633,8 @@
       "target": "node_95",
       "source_idx": 6,
       "target_idx": 95,
-      "edge_type": "suspicious",
-      "color": "red",
+      "edge_type": "normal",
+      "color": "blue",
       "weight": 1.0
     }
   ]
