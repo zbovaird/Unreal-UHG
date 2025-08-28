@@ -20,25 +20,7 @@
       "blue": "normal/benign traffic",
       "orange": "suspicious activity",
       "red": "malicious/attack traffic"
-    },
-    "hostname_info": {
-      "total_hostnames": 100,
-      "hostname_length_range": "6-7 characters",
-      "generation_method": "Device-type aware with attack pattern weighting",
-      "uniqueness": "100% unique within topology"
-    },
-    "sample_hostnames": [
-      "usrmgd",
-      "usrfn08",
-      "apiatl",
-      "iotfn19",
-      "ctrlchi",
-      "pcpratl",
-      "lapatl",
-      "ctrl03",
-      "devhr19",
-      "dbfnchi"
-    ]
+    }
   },
   "label_mapping": {
     "BENIGN": 0,
