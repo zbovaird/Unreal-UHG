@@ -1,0 +1,3847 @@
+{
+  "metadata": {
+    "dataset_name": "CIC IDS Dataset (Sample)",
+    "model_type": "UHG GraphSAGE",
+    "sample_size": 100,
+    "sample_percentage": 5.0,
+    "total_nodes": 100,
+    "total_edges": 199,
+    "num_classes": 6,
+    "features_dim": 78,
+    "k_neighbors": 2,
+    "has_model_predictions": false,
+    "edge_distribution": {
+      "normal": 179,
+      "suspicious": 9,
+      "malicious": 11,
+      "total": 199
+    },
+    "edge_color_scheme": {
+      "blue": "normal/benign traffic",
+      "orange": "suspicious activity",
+      "red": "malicious/attack traffic"
+    },
+    "os_distribution": {
+      "Windows": 35,
+      "Linux": 56,
+      "Mac": 9
+    },
+    "os_added_timestamp": "2024-12-08T14:50:00Z"
+  },
+  "label_mapping": {
+    "BENIGN": 0,
+    "DoS Hulk": 1,
+    "DoS GoldenEye": 2,
+    "DDoS": 3,
+    "PortScan": 4,
+    "Bot": 5
+  },
+  "attack_types": {
+    "benign": [
+      "BENIGN"
+    ],
+    "dos_attacks": [
+      "DoS Hulk",
+      "DoS GoldenEye",
+      "DDoS"
+    ],
+    "other_attacks": [
+      "PortScan",
+      "Bot"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "node_0",
+      "label": "rtrts18 (10.0.165.252)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.9094328022093726,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -136.7523590588218,
+        "y": 178.6027191017015,
+        "z": -51.949062143731986
+      },
+      "ip_address": "10.0.165.252",
+      "hostname": "rtrts18",
+      "os": "Linux"
+    },
+    {
+      "id": "node_1",
+      "label": "monhrsf (172.16.97.182)",
+      "attack_type": "DDoS",
+      "predicted_class": 3,
+      "confidence": 0.8270526406715784,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 171.17107804356408,
+        "y": 43.666785133798754,
+        "z": -20.447586254675116
+      },
+      "ip_address": "172.16.97.182",
+      "hostname": "monhrsf",
+      "os": "Linux"
+    },
+    {
+      "id": "node_2",
+      "label": "wsop14 (192.168.62.249)",
+      "attack_type": "PortScan",
+      "predicted_class": 4,
+      "confidence": 0.9080586456478212,
+      "threat_level": "medium",
+      "color": "orange",
+      "is_benign": false,
+      "position": {
+        "x": 123.06737963796428,
+        "y": 186.81364197549703,
+        "z": -80.18235451129365
+      },
+      "ip_address": "192.168.62.249",
+      "hostname": "wsop14",
+      "os": "Windows"
+    },
+    {
+      "id": "node_3",
+      "label": "dnsbkb (192.168.168.191)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8897583995645059,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -133.42524670890575,
+        "y": 14.119502181086261,
+        "z": 73.09038766662971
+      },
+      "ip_address": "192.168.168.191",
+      "hostname": "dnsbkb",
+      "os": "Linux"
+    },
+    {
+      "id": "node_4",
+      "label": "phnpr07 (192.168.136.202)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7533070994243672,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 117.89139401035908,
+        "y": -194.57481474139854,
+        "z": -70.86579659662542
+      },
+      "ip_address": "192.168.136.202",
+      "hostname": "phnpr07",
+      "os": "Windows"
+    },
+    {
+      "id": "node_5",
+      "label": "devsea (172.16.147.90)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8562944985965513,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -55.97445253769823,
+        "y": 51.698104976808736,
+        "z": 72.95018456019932
+      },
+      "ip_address": "172.16.147.90",
+      "hostname": "devsea",
+      "os": "Mac"
+    },
+    {
+      "id": "node_6",
+      "label": "ctrl08 (192.168.188.241)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.7342027698699726,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 125.48590982068623,
+        "y": -81.82659749958758,
+        "z": 74.20235187584268
+      },
+      "ip_address": "192.168.188.241",
+      "hostname": "ctrl08",
+      "os": "Linux"
+    },
+    {
+      "id": "node_7",
+      "label": "byod06 (10.0.157.139)",
+      "attack_type": "DDoS",
+      "predicted_class": 3,
+      "confidence": 0.7180714459567106,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -183.43605364303318,
+        "y": 49.294553914878094,
+        "z": -99.82753149501278
+      },
+      "ip_address": "10.0.157.139",
+      "hostname": "byod06",
+      "os": "Mac"
+    },
+    {
+      "id": "node_8",
+      "label": "mailchi (192.168.216.151)",
+      "attack_type": "DoS Hulk",
+      "predicted_class": 1,
+      "confidence": 0.8329515695534524,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -16.288715055153915,
+        "y": 142.10919786739532,
+        "z": 99.22205589739781
+      },
+      "ip_address": "192.168.216.151",
+      "hostname": "mailchi",
+      "os": "Linux"
+    },
+    {
+      "id": "node_9",
+      "label": "usrmgd (172.16.137.117)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8734145519225978,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -87.51894836834624,
+        "y": 47.35320746821708,
+        "z": -14.05962954494673
+      },
+      "ip_address": "172.16.137.117",
+      "hostname": "usrmgd",
+      "os": "Windows"
+    },
+    {
+      "id": "node_10",
+      "label": "swfn17 (192.168.39.163)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8587956182239063,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -161.68840895731037,
+        "y": 110.13410613101968,
+        "z": 22.31755234767465
+      },
+      "ip_address": "192.168.39.163",
+      "hostname": "swfn17",
+      "os": "Linux"
+    },
+    {
+      "id": "node_11",
+      "label": "dnsatl (10.0.184.31)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.7121666049685959,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -145.56495506397638,
+        "y": 63.367690337758006,
+        "z": -91.72691816000153
+      },
+      "ip_address": "10.0.184.31",
+      "hostname": "dnsatl",
+      "os": "Linux"
+    },
+    {
+      "id": "node_12",
+      "label": "ftpfnny (172.16.176.81)",
+      "attack_type": "Bot",
+      "predicted_class": 5,
+      "confidence": 0.7804003490732172,
+      "threat_level": "medium",
+      "color": "orange",
+      "is_benign": false,
+      "position": {
+        "x": -110.56200622223318,
+        "y": -35.202058176365426,
+        "z": 57.2906999680298
+      },
+      "ip_address": "172.16.176.81",
+      "hostname": "ftpfnny",
+      "os": "Linux"
+    },
+    {
+      "id": "node_13",
+      "label": "devhrb (172.16.40.238)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7957425228379308,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 10.178414342372577,
+        "y": -90.95255681654875,
+        "z": 84.30048361087094
+      },
+      "ip_address": "172.16.40.238",
+      "hostname": "devhrb",
+      "os": "Mac"
+    },
+    {
+      "id": "node_14",
+      "label": "srvsea (172.16.30.109)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.9013517991751869,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 67.96291017476904,
+        "y": 135.9117424665838,
+        "z": 83.07918647927269
+      },
+      "ip_address": "172.16.30.109",
+      "hostname": "srvsea",
+      "os": "Linux"
+    },
+    {
+      "id": "node_15",
+      "label": "mail20 (172.16.91.106)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7329768280758091,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 35.62783808579812,
+        "y": 190.1203400882696,
+        "z": 38.78584191535501
+      },
+      "ip_address": "172.16.91.106",
+      "hostname": "mail20",
+      "os": "Linux"
+    },
+    {
+      "id": "node_16",
+      "label": "appchi (10.0.219.21)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.9263840471529265,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 20.829874452331865,
+        "y": 34.84836265914609,
+        "z": -42.60515455388874
+      },
+      "ip_address": "10.0.219.21",
+      "hostname": "appchi",
+      "os": "Windows"
+    },
+    {
+      "id": "node_17",
+      "label": "pcpratl (10.0.51.119)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7551156746515724,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 187.23293159240433,
+        "y": -190.7598978075675,
+        "z": -72.45488642056975
+      },
+      "ip_address": "10.0.51.119",
+      "hostname": "pcpratl",
+      "os": "Windows"
+    },
+    {
+      "id": "node_18",
+      "label": "camitz (192.168.243.168)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.8362210753213839,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -136.23947438668966,
+        "y": 145.53773031882577,
+        "z": -37.32911154310534
+      },
+      "ip_address": "192.168.243.168",
+      "hostname": "camitz",
+      "os": "Windows"
+    },
+    {
+      "id": "node_19",
+      "label": "ftpprg (172.16.232.20)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.901184191250978,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -116.6130202760268,
+        "y": 135.91496009282287,
+        "z": 91.83963314778171
+      },
+      "ip_address": "172.16.232.20",
+      "hostname": "ftpprg",
+      "os": "Linux"
+    },
+    {
+      "id": "node_20",
+      "label": "cammg07 (172.16.163.138)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8306984049158909,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -33.48174891984672,
+        "y": -163.78723646676815,
+        "z": 91.99161501230898
+      },
+      "ip_address": "172.16.163.138",
+      "hostname": "cammg07",
+      "os": "Windows"
+    },
+    {
+      "id": "node_21",
+      "label": "camfn16 (192.168.209.228)",
+      "attack_type": "Bot",
+      "predicted_class": 5,
+      "confidence": 0.7169075851717451,
+      "threat_level": "medium",
+      "color": "orange",
+      "is_benign": false,
+      "position": {
+        "x": 119.05188364992898,
+        "y": 76.48953551231972,
+        "z": -60.12255320170634
+      },
+      "ip_address": "192.168.209.228",
+      "hostname": "camfn16",
+      "os": "Windows"
+    },
+    {
+      "id": "node_22",
+      "label": "usrbk12 (10.0.127.185)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7178796396249183,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -43.937465631410305,
+        "y": -184.34634436700526,
+        "z": -55.160448148948205
+      },
+      "ip_address": "10.0.127.185",
+      "hostname": "usrbk12",
+      "os": "Linux"
+    },
+    {
+      "id": "node_23",
+      "label": "phnfnj (10.0.71.2)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.885065573617452,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -168.48734594346993,
+        "y": -181.390692805821,
+        "z": -44.38161226125506
+      },
+      "ip_address": "10.0.71.2",
+      "hostname": "phnfnj",
+      "os": "Windows"
+    },
+    {
+      "id": "node_24",
+      "label": "gwbk10 (192.168.124.71)",
+      "attack_type": "DDoS",
+      "predicted_class": 3,
+      "confidence": 0.8248063523622179,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -40.56280342705932,
+        "y": 3.5211865341622683,
+        "z": -73.35608150354891
+      },
+      "ip_address": "192.168.124.71",
+      "hostname": "gwbk10",
+      "os": "Linux"
+    },
+    {
+      "id": "node_25",
+      "label": "mobopa (10.0.66.67)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.8268617283068678,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -64.59851366088319,
+        "y": 98.64841323230166,
+        "z": -65.06340303451121
+      },
+      "ip_address": "10.0.66.67",
+      "hostname": "mobopa",
+      "os": "Linux"
+    },
+    {
+      "id": "node_26",
+      "label": "mail17 (10.0.69.69)",
+      "attack_type": "DDoS",
+      "predicted_class": 3,
+      "confidence": 0.9299900372371799,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -27.452556782462466,
+        "y": -71.720415893085,
+        "z": -86.62372747848353
+      },
+      "ip_address": "10.0.69.69",
+      "hostname": "mail17",
+      "os": "Linux"
+    },
+    {
+      "id": "node_27",
+      "label": "mail16 (192.168.77.193)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7820654407237081,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 38.39521674084696,
+        "y": -129.77882561236154,
+        "z": 70.83727773498052
+      },
+      "ip_address": "192.168.77.193",
+      "hostname": "mail16",
+      "os": "Linux"
+    },
+    {
+      "id": "node_28",
+      "label": "iotfn19 (10.0.231.23)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7523599743210212,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 153.45167591616382,
+        "y": 23.24653317304751,
+        "z": -34.58124198070725
+      },
+      "ip_address": "10.0.231.23",
+      "hostname": "iotfn19",
+      "os": "Windows"
+    },
+    {
+      "id": "node_29",
+      "label": "lbfnny (192.168.215.100)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8890884182200823,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -141.00177236704945,
+        "y": -133.55665422120424,
+        "z": -83.84371432375922
+      },
+      "ip_address": "192.168.215.100",
+      "hostname": "lbfnny",
+      "os": "Linux"
+    },
+    {
+      "id": "node_30",
+      "label": "desk07 (172.16.87.134)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.7806236877498581,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 111.16327466783986,
+        "y": -63.4047919765039,
+        "z": -73.9158729833768
+      },
+      "ip_address": "172.16.87.134",
+      "hostname": "desk07",
+      "os": "Windows"
+    },
+    {
+      "id": "node_31",
+      "label": "tabpr17 (10.0.208.125)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7838062923899648,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -63.56472659642449,
+        "y": 154.50373812581034,
+        "z": -31.22849946001071
+      },
+      "ip_address": "10.0.208.125",
+      "hostname": "tabpr17",
+      "os": "Linux"
+    },
+    {
+      "id": "node_32",
+      "label": "senbk18 (10.0.117.125)",
+      "attack_type": "Bot",
+      "predicted_class": 5,
+      "confidence": 0.8259873876993242,
+      "threat_level": "medium",
+      "color": "orange",
+      "is_benign": false,
+      "position": {
+        "x": -86.16056326675788,
+        "y": -121.51272127867831,
+        "z": -70.16421976482124
+      },
+      "ip_address": "10.0.117.125",
+      "hostname": "senbk18",
+      "os": "Windows"
+    },
+    {
+      "id": "node_33",
+      "label": "usrprla (10.0.66.96)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.705333580004045,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 75.6801123165369,
+        "y": -107.90790516351012,
+        "z": -60.64600082242828
+      },
+      "ip_address": "10.0.66.96",
+      "hostname": "usrprla",
+      "os": "Mac"
+    },
+    {
+      "id": "node_34",
+      "label": "tabmgsf (192.168.29.187)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8514202868679173,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -41.91380247000899,
+        "y": 14.31778427255432,
+        "z": -0.9714073225143949
+      },
+      "ip_address": "192.168.29.187",
+      "hostname": "tabmgsf",
+      "os": "Windows"
+    },
+    {
+      "id": "node_35",
+      "label": "hubpr16 (192.168.65.47)",
+      "attack_type": "DoS Hulk",
+      "predicted_class": 1,
+      "confidence": 0.7144262489137068,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -102.51071567720835,
+        "y": -157.17858176570817,
+        "z": -51.71603496318924
+      },
+      "ip_address": "192.168.65.47",
+      "hostname": "hubpr16",
+      "os": "Windows"
+    },
+    {
+      "id": "node_36",
+      "label": "lapbk15 (10.0.151.225)",
+      "attack_type": "DDoS",
+      "predicted_class": 3,
+      "confidence": 0.7466497416152893,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 181.01474571473875,
+        "y": 188.37334211663557,
+        "z": 72.60254994898867
+      },
+      "ip_address": "10.0.151.225",
+      "hostname": "lapbk15",
+      "os": "Windows"
+    },
+    {
+      "id": "node_37",
+      "label": "srvfnh (192.168.135.174)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7971396815474618,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -69.59726772700705,
+        "y": -107.31085556031368,
+        "z": 62.48054908201232
+      },
+      "ip_address": "192.168.135.174",
+      "hostname": "srvfnh",
+      "os": "Linux"
+    },
+    {
+      "id": "node_38",
+      "label": "lbhr09 (172.16.4.94)",
+      "attack_type": "DDoS",
+      "predicted_class": 3,
+      "confidence": 0.8506536858376166,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -39.42149263511058,
+        "y": -121.09538429237165,
+        "z": 27.549710243106844
+      },
+      "ip_address": "172.16.4.94",
+      "hostname": "lbhr09",
+      "os": "Linux"
+    },
+    {
+      "id": "node_39",
+      "label": "wshr20 (172.16.9.136)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7258704306034522,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -178.00918278490337,
+        "y": -18.512867602755193,
+        "z": -89.29006727139762
+      },
+      "ip_address": "172.16.9.136",
+      "hostname": "wshr20",
+      "os": "Windows"
+    },
+    {
+      "id": "node_40",
+      "label": "tabop06 (192.168.11.219)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7167760908839433,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -77.98242431161691,
+        "y": -67.50192097351692,
+        "z": 74.33650584324997
+      },
+      "ip_address": "192.168.11.219",
+      "hostname": "tabop06",
+      "os": "Windows"
+    },
+    {
+      "id": "node_41",
+      "label": "appbk10 (10.0.225.52)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7409691865162703,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 196.65638097507377,
+        "y": -114.32626329987117,
+        "z": -58.46010063440623
+      },
+      "ip_address": "10.0.225.52",
+      "hostname": "appbk10",
+      "os": "Windows"
+    },
+    {
+      "id": "node_42",
+      "label": "mobitj (192.168.212.208)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.9170804277617216,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -74.03856992516506,
+        "y": 45.369002907450465,
+        "z": -53.50436861717878
+      },
+      "ip_address": "192.168.212.208",
+      "hostname": "mobitj",
+      "os": "Windows"
+    },
+    {
+      "id": "node_43",
+      "label": "byod11 (192.168.248.80)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8596689480456983,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -63.214082009084024,
+        "y": -18.41393473335131,
+        "z": 35.976403552565074
+      },
+      "ip_address": "192.168.248.80",
+      "hostname": "byod11",
+      "os": "Linux"
+    },
+    {
+      "id": "node_44",
+      "label": "camhr09 (192.168.80.234)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.787556895531599,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -47.32253666746061,
+        "y": -65.12913445518157,
+        "z": -65.9746884501489
+      },
+      "ip_address": "192.168.80.234",
+      "hostname": "camhr09",
+      "os": "Windows"
+    },
+    {
+      "id": "node_45",
+      "label": "vpnhr14 (172.16.45.63)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.9020571148927947,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -70.40261652736041,
+        "y": -195.81959770711634,
+        "z": 93.46617966675254
+      },
+      "ip_address": "172.16.45.63",
+      "hostname": "vpnhr14",
+      "os": "Linux"
+    },
+    {
+      "id": "node_46",
+      "label": "usrhrg (10.0.226.251)",
+      "attack_type": "PortScan",
+      "predicted_class": 4,
+      "confidence": 0.859571676136001,
+      "threat_level": "medium",
+      "color": "orange",
+      "is_benign": false,
+      "position": {
+        "x": 182.82658745467296,
+        "y": -19.183530089826746,
+        "z": -78.46540090023717
+      },
+      "ip_address": "10.0.226.251",
+      "hostname": "usrhrg",
+      "os": "Linux"
+    },
+    {
+      "id": "node_47",
+      "label": "lapatl (10.0.167.246)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8335679607826354,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 111.75666536807552,
+        "y": 2.448701880067631,
+        "z": 78.64022195814917
+      },
+      "ip_address": "10.0.167.246",
+      "hostname": "lapatl",
+      "os": "Linux"
+    },
+    {
+      "id": "node_48",
+      "label": "lapchi (10.0.70.58)",
+      "attack_type": "DDoS",
+      "predicted_class": 3,
+      "confidence": 0.8380528676541348,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 104.47380828994415,
+        "y": -59.81547717786819,
+        "z": -85.30887889072669
+      },
+      "ip_address": "10.0.70.58",
+      "hostname": "lapchi",
+      "os": "Windows"
+    },
+    {
+      "id": "node_49",
+      "label": "apphry (172.16.252.219)",
+      "attack_type": "PortScan",
+      "predicted_class": 4,
+      "confidence": 0.7594479798271521,
+      "threat_level": "medium",
+      "color": "orange",
+      "is_benign": false,
+      "position": {
+        "x": 193.51516783369777,
+        "y": 129.28770187200217,
+        "z": 6.09349929822794
+      },
+      "ip_address": "172.16.252.219",
+      "hostname": "apphry",
+      "os": "Linux"
+    },
+    {
+      "id": "node_50",
+      "label": "rtrith (10.0.9.158)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7378240350677505,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -18.960404559892197,
+        "y": 167.13238677391888,
+        "z": -26.31243013680431
+      },
+      "ip_address": "10.0.9.158",
+      "hostname": "rtrith",
+      "os": "Linux"
+    },
+    {
+      "id": "node_51",
+      "label": "devhre (172.16.213.46)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7756145528626402,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 146.11613526605697,
+        "y": 31.427365759738677,
+        "z": -77.21064874604184
+      },
+      "ip_address": "172.16.213.46",
+      "hostname": "devhre",
+      "os": "Mac"
+    },
+    {
+      "id": "node_52",
+      "label": "webfnx (192.168.251.28)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7859060392252379,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 190.94730442680566,
+        "y": -105.81516084153182,
+        "z": 67.13762248206046
+      },
+      "ip_address": "192.168.251.28",
+      "hostname": "webfnx",
+      "os": "Linux"
+    },
+    {
+      "id": "node_53",
+      "label": "mail15 (172.16.67.40)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7675573843201172,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -188.97419496990517,
+        "y": -39.29488620571476,
+        "z": -63.066342921777995
+      },
+      "ip_address": "172.16.67.40",
+      "hostname": "mail15",
+      "os": "Linux"
+    },
+    {
+      "id": "node_54",
+      "label": "wifi03 (10.0.91.65)",
+      "attack_type": "DDoS",
+      "predicted_class": 3,
+      "confidence": 0.7261985837931489,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -120.71429436413297,
+        "y": 6.144359032865992,
+        "z": -80.0935479483049
+      },
+      "ip_address": "10.0.91.65",
+      "hostname": "wifi03",
+      "os": "Linux"
+    },
+    {
+      "id": "node_55",
+      "label": "desksea (192.168.11.224)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.9120785245357411,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 108.76050603297483,
+        "y": -60.56943252921724,
+        "z": 71.76950136380711
+      },
+      "ip_address": "192.168.11.224",
+      "hostname": "desksea",
+      "os": "Windows"
+    },
+    {
+      "id": "node_56",
+      "label": "ctrl03 (10.0.57.39)",
+      "attack_type": "DoS Hulk",
+      "predicted_class": 1,
+      "confidence": 0.9073501465948248,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -74.88121012313935,
+        "y": 24.925753189114147,
+        "z": 83.86612332319646
+      },
+      "ip_address": "10.0.57.39",
+      "hostname": "ctrl03",
+      "os": "Linux"
+    },
+    {
+      "id": "node_57",
+      "label": "dnsmgy (10.0.248.197)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.931617742044925,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 163.38144592857407,
+        "y": 6.842555112090537,
+        "z": 62.82943928863111
+      },
+      "ip_address": "10.0.248.197",
+      "hostname": "dnsmgy",
+      "os": "Linux"
+    },
+    {
+      "id": "node_58",
+      "label": "usrchi (10.0.174.77)",
+      "attack_type": "Bot",
+      "predicted_class": 5,
+      "confidence": 0.7282754912559226,
+      "threat_level": "medium",
+      "color": "orange",
+      "is_benign": false,
+      "position": {
+        "x": -44.59611072194184,
+        "y": 38.77981830469426,
+        "z": 1.5390792617768057
+      },
+      "ip_address": "10.0.174.77",
+      "hostname": "usrchi",
+      "os": "Windows"
+    },
+    {
+      "id": "node_59",
+      "label": "apphr06 (10.0.129.178)",
+      "attack_type": "DoS Hulk",
+      "predicted_class": 1,
+      "confidence": 0.8540586573508607,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 139.98573227842752,
+        "y": -119.893713845515,
+        "z": 90.2909718931802
+      },
+      "ip_address": "10.0.129.178",
+      "hostname": "apphr06",
+      "os": "Linux"
+    },
+    {
+      "id": "node_60",
+      "label": "fwpr20 (192.168.141.254)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7910778882595947,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 53.63249941714554,
+        "y": -178.44839712485827,
+        "z": 99.94984185539042
+      },
+      "ip_address": "192.168.141.254",
+      "hostname": "fwpr20",
+      "os": "Linux"
+    },
+    {
+      "id": "node_61",
+      "label": "tabit13 (10.0.154.205)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7820299611941257,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -124.0463055322044,
+        "y": -186.67789094523823,
+        "z": -61.409033309163405
+      },
+      "ip_address": "10.0.154.205",
+      "hostname": "tabit13",
+      "os": "Mac"
+    },
+    {
+      "id": "node_62",
+      "label": "mail12 (192.168.86.104)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8438480456942471,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -3.2983090670022364,
+        "y": 128.12326461675377,
+        "z": -71.79426709440453
+      },
+      "ip_address": "192.168.86.104",
+      "hostname": "mail12",
+      "os": "Linux"
+    },
+    {
+      "id": "node_63",
+      "label": "desksf (172.16.24.221)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.9094104125983455,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 115.99383937720768,
+        "y": -160.69219353181063,
+        "z": 11.37324717755024
+      },
+      "ip_address": "172.16.24.221",
+      "hostname": "desksf",
+      "os": "Windows"
+    },
+    {
+      "id": "node_64",
+      "label": "srvop10 (192.168.169.239)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8080148030311699,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 104.77231589023216,
+        "y": 152.95531469848436,
+        "z": -84.37175555152525
+      },
+      "ip_address": "192.168.169.239",
+      "hostname": "srvop10",
+      "os": "Linux"
+    },
+    {
+      "id": "node_65",
+      "label": "mobhr16 (10.0.214.101)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.8259838413690589,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 11.538194844266627,
+        "y": 81.6402521790514,
+        "z": 22.211081288382843
+      },
+      "ip_address": "10.0.214.101",
+      "hostname": "mobhr16",
+      "os": "Linux"
+    },
+    {
+      "id": "node_66",
+      "label": "wifi15 (10.0.219.61)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.822672133332708,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 169.6802397879838,
+        "y": 155.41303565191924,
+        "z": 56.31087066248858
+      },
+      "ip_address": "10.0.219.61",
+      "hostname": "wifi15",
+      "os": "Windows"
+    },
+    {
+      "id": "node_67",
+      "label": "ftpdm19 (192.168.231.65)",
+      "attack_type": "DoS Hulk",
+      "predicted_class": 1,
+      "confidence": 0.9387537399345501,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -165.2123628308218,
+        "y": 159.3671417443282,
+        "z": -60.88208091053413
+      },
+      "ip_address": "192.168.231.65",
+      "hostname": "ftpdm19",
+      "os": "Linux"
+    },
+    {
+      "id": "node_68",
+      "label": "vpnbkj (10.0.15.249)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7137735780821637,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -180.74260835694673,
+        "y": 54.601771593502065,
+        "z": 27.38137443151554
+      },
+      "ip_address": "10.0.15.249",
+      "hostname": "vpnbkj",
+      "os": "Windows"
+    },
+    {
+      "id": "node_69",
+      "label": "tabbkh (192.168.239.232)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.913221224812931,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -172.08675050784228,
+        "y": -168.4272010871981,
+        "z": -40.701495469372674
+      },
+      "ip_address": "192.168.239.232",
+      "hostname": "tabbkh",
+      "os": "Windows"
+    },
+    {
+      "id": "node_70",
+      "label": "fwts10 (192.168.208.253)",
+      "attack_type": "DoS Hulk",
+      "predicted_class": 1,
+      "confidence": 0.7016438087678544,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 152.7521451214849,
+        "y": 98.33432319569226,
+        "z": 85.36890315959457
+      },
+      "ip_address": "192.168.208.253",
+      "hostname": "fwts10",
+      "os": "Linux"
+    },
+    {
+      "id": "node_71",
+      "label": "ctrlchi (172.16.51.210)",
+      "attack_type": "DoS Hulk",
+      "predicted_class": 1,
+      "confidence": 0.8977786423587535,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -34.56463441692358,
+        "y": 56.549623891105625,
+        "z": 9.08446704304231
+      },
+      "ip_address": "172.16.51.210",
+      "hostname": "ctrlchi",
+      "os": "Linux"
+    },
+    {
+      "id": "node_72",
+      "label": "byod08 (192.168.157.116)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7733293010364137,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 96.62426985175779,
+        "y": 34.407844353749795,
+        "z": 11.45393720647894
+      },
+      "ip_address": "192.168.157.116",
+      "hostname": "byod08",
+      "os": "Mac"
+    },
+    {
+      "id": "node_73",
+      "label": "mail07 (10.0.205.15)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.7694863634551272,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -126.65715021240977,
+        "y": -51.9279292585702,
+        "z": -45.31290466075841
+      },
+      "ip_address": "10.0.205.15",
+      "hostname": "mail07",
+      "os": "Linux"
+    },
+    {
+      "id": "node_74",
+      "label": "ftpfn04 (172.16.40.83)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.8220341934295528,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 150.123502578412,
+        "y": -59.31948588530659,
+        "z": 0.5463040733679918
+      },
+      "ip_address": "172.16.40.83",
+      "hostname": "ftpfn04",
+      "os": "Linux"
+    },
+    {
+      "id": "node_75",
+      "label": "fwhrla (172.16.144.64)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.822215490912581,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 145.4845291056305,
+        "y": -64.67726503253522,
+        "z": -5.8678274986264825
+      },
+      "ip_address": "172.16.144.64",
+      "hostname": "fwhrla",
+      "os": "Linux"
+    },
+    {
+      "id": "node_76",
+      "label": "ctrl18 (172.16.249.146)",
+      "attack_type": "Bot",
+      "predicted_class": 5,
+      "confidence": 0.9455802383126608,
+      "threat_level": "medium",
+      "color": "orange",
+      "is_benign": false,
+      "position": {
+        "x": 19.90306403338255,
+        "y": -91.51380730178391,
+        "z": 10.37175840060884
+      },
+      "ip_address": "172.16.249.146",
+      "hostname": "ctrl18",
+      "os": "Linux"
+    },
+    {
+      "id": "node_77",
+      "label": "usrfnx (192.168.161.73)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.9324654257406437,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -132.10994811747105,
+        "y": 172.67375220099336,
+        "z": -51.75263532592105
+      },
+      "ip_address": "192.168.161.73",
+      "hostname": "usrfnx",
+      "os": "Linux"
+    },
+    {
+      "id": "node_78",
+      "label": "appsea (192.168.153.60)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7942208727512078,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 102.30704471189011,
+        "y": -156.05902739865644,
+        "z": -81.94255160489735
+      },
+      "ip_address": "192.168.153.60",
+      "hostname": "appsea",
+      "os": "Windows"
+    },
+    {
+      "id": "node_79",
+      "label": "apiatl (192.168.238.170)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.751181675226075,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 157.4395220487852,
+        "y": -126.98752871765495,
+        "z": -87.15309830545037
+      },
+      "ip_address": "192.168.238.170",
+      "hostname": "apiatl",
+      "os": "Linux"
+    },
+    {
+      "id": "node_80",
+      "label": "wifi10 (192.168.65.33)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.861033160862534,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -133.18779057938772,
+        "y": -63.9043994404949,
+        "z": 72.55155768917987
+      },
+      "ip_address": "192.168.65.33",
+      "hostname": "wifi10",
+      "os": "Linux"
+    },
+    {
+      "id": "node_81",
+      "label": "wkstsj (172.16.65.6)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7396950497815369,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -160.21775004471297,
+        "y": 86.36447391448633,
+        "z": -19.950227290113375
+      },
+      "ip_address": "172.16.65.6",
+      "hostname": "wkstsj",
+      "os": "Windows"
+    },
+    {
+      "id": "node_82",
+      "label": "camdm05 (10.0.190.203)",
+      "attack_type": "DDoS",
+      "predicted_class": 3,
+      "confidence": 0.7643127640321044,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 149.09971355298148,
+        "y": 86.79587602875046,
+        "z": -36.6759374788445
+      },
+      "ip_address": "10.0.190.203",
+      "hostname": "camdm05",
+      "os": "Mac"
+    },
+    {
+      "id": "node_83",
+      "label": "desk16 (172.16.147.100)",
+      "attack_type": "DoS Hulk",
+      "predicted_class": 1,
+      "confidence": 0.8190257672406686,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -54.15749023766446,
+        "y": 8.115391415962506,
+        "z": -23.991667259863576
+      },
+      "ip_address": "172.16.147.100",
+      "hostname": "desk16",
+      "os": "Windows"
+    },
+    {
+      "id": "node_84",
+      "label": "apiitsf (10.0.100.70)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.9030216477794417,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -10.22783456510598,
+        "y": -12.617611027831998,
+        "z": 21.547466069203722
+      },
+      "ip_address": "10.0.100.70",
+      "hostname": "apiitsf",
+      "os": "Linux"
+    },
+    {
+      "id": "node_85",
+      "label": "devhr19 (172.16.90.211)",
+      "attack_type": "PortScan",
+      "predicted_class": 4,
+      "confidence": 0.8441116123439295,
+      "threat_level": "medium",
+      "color": "orange",
+      "is_benign": false,
+      "position": {
+        "x": 18.387470437526474,
+        "y": 94.2895381187194,
+        "z": -98.2582329091253
+      },
+      "ip_address": "172.16.90.211",
+      "hostname": "devhr19",
+      "os": "Mac"
+    },
+    {
+      "id": "node_86",
+      "label": "desk13 (172.16.170.138)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8559563474583224,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 139.26119431852612,
+        "y": -155.51094124113683,
+        "z": -11.395182334368243
+      },
+      "ip_address": "172.16.170.138",
+      "hostname": "desk13",
+      "os": "Windows"
+    },
+    {
+      "id": "node_87",
+      "label": "mail09 (10.0.116.240)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8385390237016845,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 111.78592210007952,
+        "y": -22.333596870736955,
+        "z": -17.616193947669018
+      },
+      "ip_address": "10.0.116.240",
+      "hostname": "mail09",
+      "os": "Linux"
+    },
+    {
+      "id": "node_88",
+      "label": "desk20 (172.16.63.199)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.9016237277652548,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 9.211120798069658,
+        "y": -133.82371576059808,
+        "z": -58.19494188592949
+      },
+      "ip_address": "172.16.63.199",
+      "hostname": "desk20",
+      "os": "Windows"
+    },
+    {
+      "id": "node_89",
+      "label": "usrfn08 (10.0.150.50)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.7833026023525069,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": 112.64808562168122,
+        "y": -4.105222756648175,
+        "z": 23.312424309477308
+      },
+      "ip_address": "10.0.150.50",
+      "hostname": "usrfn08",
+      "os": "Windows"
+    },
+    {
+      "id": "node_90",
+      "label": "mailsf (10.0.104.201)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.9304362786762816,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 186.93537153483078,
+        "y": 191.11279445097102,
+        "z": 39.78853583390725
+      },
+      "ip_address": "10.0.104.201",
+      "hostname": "mailsf",
+      "os": "Linux"
+    },
+    {
+      "id": "node_91",
+      "label": "lbmg02 (192.168.243.130)",
+      "attack_type": "DoS GoldenEye",
+      "predicted_class": 2,
+      "confidence": 0.7245928912360019,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -186.13758980444177,
+        "y": -140.08531288074983,
+        "z": -23.97194148200083
+      },
+      "ip_address": "192.168.243.130",
+      "hostname": "lbmg02",
+      "os": "Linux"
+    },
+    {
+      "id": "node_92",
+      "label": "dbfnchi (10.0.97.68)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7110221583173344,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -70.31503381700853,
+        "y": -159.03574057045043,
+        "z": -10.61645092375933
+      },
+      "ip_address": "10.0.97.68",
+      "hostname": "dbfnchi",
+      "os": "Linux"
+    },
+    {
+      "id": "node_93",
+      "label": "dbtssf (172.16.100.126)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7796456750289595,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 13.64036965970459,
+        "y": -136.408805618192,
+        "z": -51.57759840002174
+      },
+      "ip_address": "172.16.100.126",
+      "hostname": "dbtssf",
+      "os": "Linux"
+    },
+    {
+      "id": "node_94",
+      "label": "srvbk09 (10.0.245.66)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.9120723848263927,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -12.174784906501515,
+        "y": 194.21825839902385,
+        "z": 11.145696465718729
+      },
+      "ip_address": "10.0.245.66",
+      "hostname": "srvbk09",
+      "os": "Linux"
+    },
+    {
+      "id": "node_95",
+      "label": "srvts12 (172.16.148.65)",
+      "attack_type": "DoS Hulk",
+      "predicted_class": 1,
+      "confidence": 0.8223931062781242,
+      "threat_level": "high",
+      "color": "red",
+      "is_benign": false,
+      "position": {
+        "x": -180.3496463646494,
+        "y": 10.579289809709365,
+        "z": 11.46471758660796
+      },
+      "ip_address": "172.16.148.65",
+      "hostname": "srvts12",
+      "os": "Linux"
+    },
+    {
+      "id": "node_96",
+      "label": "pcop05 (192.168.30.111)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.7585991417967846,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -98.91515721462744,
+        "y": -50.97501716795,
+        "z": 90.15843642320729
+      },
+      "ip_address": "192.168.30.111",
+      "hostname": "pcop05",
+      "os": "Windows"
+    },
+    {
+      "id": "node_97",
+      "label": "wifila (10.0.36.249)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8373223579206277,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 22.24850004553568,
+        "y": 111.98147363190725,
+        "z": -54.42312195943917
+      },
+      "ip_address": "10.0.36.249",
+      "hostname": "wifila",
+      "os": "Linux"
+    },
+    {
+      "id": "node_98",
+      "label": "ftppr05 (172.16.202.29)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8634896838551365,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": -131.36195844520225,
+        "y": -10.796956665254157,
+        "z": -86.22828781513445
+      },
+      "ip_address": "172.16.202.29",
+      "hostname": "ftppr05",
+      "os": "Windows"
+    },
+    {
+      "id": "node_99",
+      "label": "byod04 (172.16.125.9)",
+      "attack_type": "BENIGN",
+      "predicted_class": 0,
+      "confidence": 0.8506152618142422,
+      "threat_level": "benign",
+      "color": "green",
+      "is_benign": true,
+      "position": {
+        "x": 161.2463631296897,
+        "y": 84.42393841389452,
+        "z": 16.61736184931965
+      },
+      "ip_address": "172.16.125.9",
+      "hostname": "byod04",
+      "os": "Linux"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "source": "node_48",
+      "target": "node_46",
+      "source_idx": 48,
+      "target_idx": 46,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_1",
+      "source": "node_99",
+      "target": "node_75",
+      "source_idx": 99,
+      "target_idx": 75,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_2",
+      "source": "node_43",
+      "target": "node_97",
+      "source_idx": 43,
+      "target_idx": 97,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_3",
+      "source": "node_2",
+      "target": "node_44",
+      "source_idx": 2,
+      "target_idx": 44,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_4",
+      "source": "node_25",
+      "target": "node_67",
+      "source_idx": 25,
+      "target_idx": 67,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_5",
+      "source": "node_23",
+      "target": "node_14",
+      "source_idx": 23,
+      "target_idx": 14,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_6",
+      "source": "node_39",
+      "target": "node_38",
+      "source_idx": 39,
+      "target_idx": 38,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_7",
+      "source": "node_6",
+      "target": "node_26",
+      "source_idx": 6,
+      "target_idx": 26,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_8",
+      "source": "node_65",
+      "target": "node_48",
+      "source_idx": 65,
+      "target_idx": 48,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_9",
+      "source": "node_90",
+      "target": "node_10",
+      "source_idx": 90,
+      "target_idx": 10,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_10",
+      "source": "node_1",
+      "target": "node_60",
+      "source_idx": 1,
+      "target_idx": 60,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_11",
+      "source": "node_33",
+      "target": "node_88",
+      "source_idx": 33,
+      "target_idx": 88,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_12",
+      "source": "node_59",
+      "target": "node_28",
+      "source_idx": 59,
+      "target_idx": 28,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_13",
+      "source": "node_26",
+      "target": "node_35",
+      "source_idx": 26,
+      "target_idx": 35,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_14",
+      "source": "node_44",
+      "target": "node_47",
+      "source_idx": 44,
+      "target_idx": 47,
+      "edge_type": "suspicious",
+      "color": "orange",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_15",
+      "source": "node_57",
+      "target": "node_44",
+      "source_idx": 57,
+      "target_idx": 44,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_16",
+      "source": "node_23",
+      "target": "node_62",
+      "source_idx": 23,
+      "target_idx": 62,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_17",
+      "source": "node_27",
+      "target": "node_53",
+      "source_idx": 27,
+      "target_idx": 53,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_18",
+      "source": "node_10",
+      "target": "node_28",
+      "source_idx": 10,
+      "target_idx": 28,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_19",
+      "source": "node_6",
+      "target": "node_49",
+      "source_idx": 6,
+      "target_idx": 49,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_20",
+      "source": "node_7",
+      "target": "node_78",
+      "source_idx": 7,
+      "target_idx": 78,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_21",
+      "source": "node_50",
+      "target": "node_12",
+      "source_idx": 50,
+      "target_idx": 12,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_22",
+      "source": "node_30",
+      "target": "node_62",
+      "source_idx": 30,
+      "target_idx": 62,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_23",
+      "source": "node_18",
+      "target": "node_90",
+      "source_idx": 18,
+      "target_idx": 90,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_24",
+      "source": "node_71",
+      "target": "node_69",
+      "source_idx": 71,
+      "target_idx": 69,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_25",
+      "source": "node_16",
+      "target": "node_66",
+      "source_idx": 16,
+      "target_idx": 66,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_26",
+      "source": "node_28",
+      "target": "node_84",
+      "source_idx": 28,
+      "target_idx": 84,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_27",
+      "source": "node_55",
+      "target": "node_3",
+      "source_idx": 55,
+      "target_idx": 3,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_28",
+      "source": "node_94",
+      "target": "node_0",
+      "source_idx": 94,
+      "target_idx": 0,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_29",
+      "source": "node_31",
+      "target": "node_35",
+      "source_idx": 31,
+      "target_idx": 35,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_30",
+      "source": "node_24",
+      "target": "node_35",
+      "source_idx": 24,
+      "target_idx": 35,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_31",
+      "source": "node_21",
+      "target": "node_49",
+      "source_idx": 21,
+      "target_idx": 49,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_32",
+      "source": "node_33",
+      "target": "node_35",
+      "source_idx": 33,
+      "target_idx": 35,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_33",
+      "source": "node_81",
+      "target": "node_35",
+      "source_idx": 81,
+      "target_idx": 35,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_34",
+      "source": "node_15",
+      "target": "node_9",
+      "source_idx": 15,
+      "target_idx": 9,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_35",
+      "source": "node_54",
+      "target": "node_42",
+      "source_idx": 54,
+      "target_idx": 42,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_36",
+      "source": "node_92",
+      "target": "node_16",
+      "source_idx": 92,
+      "target_idx": 16,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_37",
+      "source": "node_76",
+      "target": "node_59",
+      "source_idx": 76,
+      "target_idx": 59,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_38",
+      "source": "node_72",
+      "target": "node_75",
+      "source_idx": 72,
+      "target_idx": 75,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_39",
+      "source": "node_17",
+      "target": "node_37",
+      "source_idx": 17,
+      "target_idx": 37,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_40",
+      "source": "node_55",
+      "target": "node_35",
+      "source_idx": 55,
+      "target_idx": 35,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_41",
+      "source": "node_58",
+      "target": "node_53",
+      "source_idx": 58,
+      "target_idx": 53,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_42",
+      "source": "node_33",
+      "target": "node_71",
+      "source_idx": 33,
+      "target_idx": 71,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_43",
+      "source": "node_8",
+      "target": "node_70",
+      "source_idx": 8,
+      "target_idx": 70,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_44",
+      "source": "node_69",
+      "target": "node_86",
+      "source_idx": 69,
+      "target_idx": 86,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_45",
+      "source": "node_39",
+      "target": "node_85",
+      "source_idx": 39,
+      "target_idx": 85,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_46",
+      "source": "node_66",
+      "target": "node_4",
+      "source_idx": 66,
+      "target_idx": 4,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_47",
+      "source": "node_11",
+      "target": "node_15",
+      "source_idx": 11,
+      "target_idx": 15,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_48",
+      "source": "node_26",
+      "target": "node_56",
+      "source_idx": 26,
+      "target_idx": 56,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_49",
+      "source": "node_57",
+      "target": "node_95",
+      "source_idx": 57,
+      "target_idx": 95,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_50",
+      "source": "node_19",
+      "target": "node_12",
+      "source_idx": 19,
+      "target_idx": 12,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_51",
+      "source": "node_61",
+      "target": "node_9",
+      "source_idx": 61,
+      "target_idx": 9,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_52",
+      "source": "node_93",
+      "target": "node_92",
+      "source_idx": 93,
+      "target_idx": 92,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_53",
+      "source": "node_53",
+      "target": "node_92",
+      "source_idx": 53,
+      "target_idx": 92,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_54",
+      "source": "node_0",
+      "target": "node_57",
+      "source_idx": 0,
+      "target_idx": 57,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_55",
+      "source": "node_63",
+      "target": "node_30",
+      "source_idx": 63,
+      "target_idx": 30,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_56",
+      "source": "node_11",
+      "target": "node_72",
+      "source_idx": 11,
+      "target_idx": 72,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_57",
+      "source": "node_22",
+      "target": "node_82",
+      "source_idx": 22,
+      "target_idx": 82,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_58",
+      "source": "node_7",
+      "target": "node_40",
+      "source_idx": 7,
+      "target_idx": 40,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_59",
+      "source": "node_52",
+      "target": "node_46",
+      "source_idx": 52,
+      "target_idx": 46,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_60",
+      "source": "node_50",
+      "target": "node_45",
+      "source_idx": 50,
+      "target_idx": 45,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_61",
+      "source": "node_40",
+      "target": "node_69",
+      "source_idx": 40,
+      "target_idx": 69,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_62",
+      "source": "node_76",
+      "target": "node_29",
+      "source_idx": 76,
+      "target_idx": 29,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_63",
+      "source": "node_46",
+      "target": "node_25",
+      "source_idx": 46,
+      "target_idx": 25,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_64",
+      "source": "node_99",
+      "target": "node_11",
+      "source_idx": 99,
+      "target_idx": 11,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_65",
+      "source": "node_30",
+      "target": "node_25",
+      "source_idx": 30,
+      "target_idx": 25,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_66",
+      "source": "node_14",
+      "target": "node_7",
+      "source_idx": 14,
+      "target_idx": 7,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_67",
+      "source": "node_91",
+      "target": "node_61",
+      "source_idx": 91,
+      "target_idx": 61,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_68",
+      "source": "node_36",
+      "target": "node_68",
+      "source_idx": 36,
+      "target_idx": 68,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_69",
+      "source": "node_64",
+      "target": "node_25",
+      "source_idx": 64,
+      "target_idx": 25,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_70",
+      "source": "node_17",
+      "target": "node_65",
+      "source_idx": 17,
+      "target_idx": 65,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_71",
+      "source": "node_11",
+      "target": "node_70",
+      "source_idx": 11,
+      "target_idx": 70,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_72",
+      "source": "node_21",
+      "target": "node_92",
+      "source_idx": 21,
+      "target_idx": 92,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_73",
+      "source": "node_83",
+      "target": "node_45",
+      "source_idx": 83,
+      "target_idx": 45,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_74",
+      "source": "node_60",
+      "target": "node_54",
+      "source_idx": 60,
+      "target_idx": 54,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_75",
+      "source": "node_22",
+      "target": "node_95",
+      "source_idx": 22,
+      "target_idx": 95,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_76",
+      "source": "node_34",
+      "target": "node_14",
+      "source_idx": 34,
+      "target_idx": 14,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_77",
+      "source": "node_2",
+      "target": "node_61",
+      "source_idx": 2,
+      "target_idx": 61,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_78",
+      "source": "node_86",
+      "target": "node_77",
+      "source_idx": 86,
+      "target_idx": 77,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_79",
+      "source": "node_32",
+      "target": "node_16",
+      "source_idx": 32,
+      "target_idx": 16,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_80",
+      "source": "node_99",
+      "target": "node_60",
+      "source_idx": 99,
+      "target_idx": 60,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_81",
+      "source": "node_42",
+      "target": "node_14",
+      "source_idx": 42,
+      "target_idx": 14,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_82",
+      "source": "node_36",
+      "target": "node_4",
+      "source_idx": 36,
+      "target_idx": 4,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_83",
+      "source": "node_9",
+      "target": "node_22",
+      "source_idx": 9,
+      "target_idx": 22,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_84",
+      "source": "node_61",
+      "target": "node_45",
+      "source_idx": 61,
+      "target_idx": 45,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_85",
+      "source": "node_81",
+      "target": "node_6",
+      "source_idx": 81,
+      "target_idx": 6,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_86",
+      "source": "node_88",
+      "target": "node_80",
+      "source_idx": 88,
+      "target_idx": 80,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_87",
+      "source": "node_93",
+      "target": "node_94",
+      "source_idx": 93,
+      "target_idx": 94,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_88",
+      "source": "node_49",
+      "target": "node_16",
+      "source_idx": 49,
+      "target_idx": 16,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_89",
+      "source": "node_93",
+      "target": "node_28",
+      "source_idx": 93,
+      "target_idx": 28,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_90",
+      "source": "node_16",
+      "target": "node_71",
+      "source_idx": 16,
+      "target_idx": 71,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_91",
+      "source": "node_54",
+      "target": "node_52",
+      "source_idx": 54,
+      "target_idx": 52,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_92",
+      "source": "node_55",
+      "target": "node_41",
+      "source_idx": 55,
+      "target_idx": 41,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_93",
+      "source": "node_58",
+      "target": "node_10",
+      "source_idx": 58,
+      "target_idx": 10,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_94",
+      "source": "node_36",
+      "target": "node_19",
+      "source_idx": 36,
+      "target_idx": 19,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_95",
+      "source": "node_96",
+      "target": "node_5",
+      "source_idx": 96,
+      "target_idx": 5,
+      "edge_type": "suspicious",
+      "color": "orange",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_96",
+      "source": "node_92",
+      "target": "node_30",
+      "source_idx": 92,
+      "target_idx": 30,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_97",
+      "source": "node_59",
+      "target": "node_71",
+      "source_idx": 59,
+      "target_idx": 71,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_98",
+      "source": "node_74",
+      "target": "node_59",
+      "source_idx": 74,
+      "target_idx": 59,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_99",
+      "source": "node_84",
+      "target": "node_92",
+      "source_idx": 84,
+      "target_idx": 92,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_100",
+      "source": "node_14",
+      "target": "node_3",
+      "source_idx": 14,
+      "target_idx": 3,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_101",
+      "source": "node_32",
+      "target": "node_37",
+      "source_idx": 32,
+      "target_idx": 37,
+      "edge_type": "suspicious",
+      "color": "orange",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_102",
+      "source": "node_4",
+      "target": "node_74",
+      "source_idx": 4,
+      "target_idx": 74,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_103",
+      "source": "node_84",
+      "target": "node_18",
+      "source_idx": 84,
+      "target_idx": 18,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_104",
+      "source": "node_62",
+      "target": "node_37",
+      "source_idx": 62,
+      "target_idx": 37,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_105",
+      "source": "node_18",
+      "target": "node_4",
+      "source_idx": 18,
+      "target_idx": 4,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_106",
+      "source": "node_96",
+      "target": "node_87",
+      "source_idx": 96,
+      "target_idx": 87,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_107",
+      "source": "node_65",
+      "target": "node_68",
+      "source_idx": 65,
+      "target_idx": 68,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_108",
+      "source": "node_76",
+      "target": "node_11",
+      "source_idx": 76,
+      "target_idx": 11,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_109",
+      "source": "node_62",
+      "target": "node_39",
+      "source_idx": 62,
+      "target_idx": 39,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_110",
+      "source": "node_91",
+      "target": "node_6",
+      "source_idx": 91,
+      "target_idx": 6,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_111",
+      "source": "node_44",
+      "target": "node_73",
+      "source_idx": 44,
+      "target_idx": 73,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_112",
+      "source": "node_77",
+      "target": "node_66",
+      "source_idx": 77,
+      "target_idx": 66,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_113",
+      "source": "node_32",
+      "target": "node_33",
+      "source_idx": 32,
+      "target_idx": 33,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_114",
+      "source": "node_82",
+      "target": "node_31",
+      "source_idx": 82,
+      "target_idx": 31,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_115",
+      "source": "node_35",
+      "target": "node_86",
+      "source_idx": 35,
+      "target_idx": 86,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_116",
+      "source": "node_78",
+      "target": "node_29",
+      "source_idx": 78,
+      "target_idx": 29,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_117",
+      "source": "node_54",
+      "target": "node_69",
+      "source_idx": 54,
+      "target_idx": 69,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_118",
+      "source": "node_73",
+      "target": "node_99",
+      "source_idx": 73,
+      "target_idx": 99,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_119",
+      "source": "node_71",
+      "target": "node_85",
+      "source_idx": 71,
+      "target_idx": 85,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_120",
+      "source": "node_56",
+      "target": "node_9",
+      "source_idx": 56,
+      "target_idx": 9,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_121",
+      "source": "node_51",
+      "target": "node_1",
+      "source_idx": 51,
+      "target_idx": 1,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_122",
+      "source": "node_13",
+      "target": "node_38",
+      "source_idx": 13,
+      "target_idx": 38,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_123",
+      "source": "node_97",
+      "target": "node_34",
+      "source_idx": 97,
+      "target_idx": 34,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_124",
+      "source": "node_48",
+      "target": "node_75",
+      "source_idx": 48,
+      "target_idx": 75,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_125",
+      "source": "node_35",
+      "target": "node_39",
+      "source_idx": 35,
+      "target_idx": 39,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_126",
+      "source": "node_57",
+      "target": "node_69",
+      "source_idx": 57,
+      "target_idx": 69,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_127",
+      "source": "node_30",
+      "target": "node_82",
+      "source_idx": 30,
+      "target_idx": 82,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_128",
+      "source": "node_92",
+      "target": "node_9",
+      "source_idx": 92,
+      "target_idx": 9,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_129",
+      "source": "node_51",
+      "target": "node_36",
+      "source_idx": 51,
+      "target_idx": 36,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_131",
+      "source": "node_74",
+      "target": "node_55",
+      "source_idx": 74,
+      "target_idx": 55,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_132",
+      "source": "node_78",
+      "target": "node_82",
+      "source_idx": 78,
+      "target_idx": 82,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_133",
+      "source": "node_56",
+      "target": "node_71",
+      "source_idx": 56,
+      "target_idx": 71,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_134",
+      "source": "node_9",
+      "target": "node_19",
+      "source_idx": 9,
+      "target_idx": 19,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_135",
+      "source": "node_15",
+      "target": "node_35",
+      "source_idx": 15,
+      "target_idx": 35,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_136",
+      "source": "node_35",
+      "target": "node_46",
+      "source_idx": 35,
+      "target_idx": 46,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_137",
+      "source": "node_91",
+      "target": "node_11",
+      "source_idx": 91,
+      "target_idx": 11,
+      "edge_type": "suspicious",
+      "color": "orange",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_138",
+      "source": "node_2",
+      "target": "node_3",
+      "source_idx": 2,
+      "target_idx": 3,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_139",
+      "source": "node_4",
+      "target": "node_76",
+      "source_idx": 4,
+      "target_idx": 76,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_140",
+      "source": "node_14",
+      "target": "node_50",
+      "source_idx": 14,
+      "target_idx": 50,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_141",
+      "source": "node_89",
+      "target": "node_77",
+      "source_idx": 89,
+      "target_idx": 77,
+      "edge_type": "suspicious",
+      "color": "orange",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_142",
+      "source": "node_54",
+      "target": "node_41",
+      "source_idx": 54,
+      "target_idx": 41,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_143",
+      "source": "node_12",
+      "target": "node_1",
+      "source_idx": 12,
+      "target_idx": 1,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_144",
+      "source": "node_91",
+      "target": "node_62",
+      "source_idx": 91,
+      "target_idx": 62,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_145",
+      "source": "node_96",
+      "target": "node_40",
+      "source_idx": 96,
+      "target_idx": 40,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_146",
+      "source": "node_96",
+      "target": "node_3",
+      "source_idx": 96,
+      "target_idx": 3,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_147",
+      "source": "node_52",
+      "target": "node_83",
+      "source_idx": 52,
+      "target_idx": 83,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_148",
+      "source": "node_39",
+      "target": "node_59",
+      "source_idx": 39,
+      "target_idx": 59,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_149",
+      "source": "node_52",
+      "target": "node_89",
+      "source_idx": 52,
+      "target_idx": 89,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_150",
+      "source": "node_76",
+      "target": "node_48",
+      "source_idx": 76,
+      "target_idx": 48,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_151",
+      "source": "node_46",
+      "target": "node_97",
+      "source_idx": 46,
+      "target_idx": 97,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_152",
+      "source": "node_88",
+      "target": "node_25",
+      "source_idx": 88,
+      "target_idx": 25,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_153",
+      "source": "node_89",
+      "target": "node_5",
+      "source_idx": 89,
+      "target_idx": 5,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_154",
+      "source": "node_15",
+      "target": "node_75",
+      "source_idx": 15,
+      "target_idx": 75,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_155",
+      "source": "node_16",
+      "target": "node_60",
+      "source_idx": 16,
+      "target_idx": 60,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_156",
+      "source": "node_91",
+      "target": "node_54",
+      "source_idx": 91,
+      "target_idx": 54,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_157",
+      "source": "node_95",
+      "target": "node_68",
+      "source_idx": 95,
+      "target_idx": 68,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_158",
+      "source": "node_71",
+      "target": "node_35",
+      "source_idx": 71,
+      "target_idx": 35,
+      "edge_type": "suspicious",
+      "color": "orange",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_159",
+      "source": "node_14",
+      "target": "node_27",
+      "source_idx": 14,
+      "target_idx": 27,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_160",
+      "source": "node_64",
+      "target": "node_26",
+      "source_idx": 64,
+      "target_idx": 26,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_161",
+      "source": "node_31",
+      "target": "node_36",
+      "source_idx": 31,
+      "target_idx": 36,
+      "edge_type": "suspicious",
+      "color": "orange",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_162",
+      "source": "node_8",
+      "target": "node_86",
+      "source_idx": 8,
+      "target_idx": 86,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_163",
+      "source": "node_16",
+      "target": "node_79",
+      "source_idx": 16,
+      "target_idx": 79,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_164",
+      "source": "node_7",
+      "target": "node_60",
+      "source_idx": 7,
+      "target_idx": 60,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_165",
+      "source": "node_6",
+      "target": "node_42",
+      "source_idx": 6,
+      "target_idx": 42,
+      "edge_type": "suspicious",
+      "color": "orange",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_166",
+      "source": "node_90",
+      "target": "node_2",
+      "source_idx": 90,
+      "target_idx": 2,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_167",
+      "source": "node_59",
+      "target": "node_3",
+      "source_idx": 59,
+      "target_idx": 3,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_168",
+      "source": "node_43",
+      "target": "node_5",
+      "source_idx": 43,
+      "target_idx": 5,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_169",
+      "source": "node_72",
+      "target": "node_33",
+      "source_idx": 72,
+      "target_idx": 33,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_170",
+      "source": "node_67",
+      "target": "node_14",
+      "source_idx": 67,
+      "target_idx": 14,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_171",
+      "source": "node_20",
+      "target": "node_70",
+      "source_idx": 20,
+      "target_idx": 70,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_172",
+      "source": "node_94",
+      "target": "node_86",
+      "source_idx": 94,
+      "target_idx": 86,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_173",
+      "source": "node_46",
+      "target": "node_30",
+      "source_idx": 46,
+      "target_idx": 30,
+      "edge_type": "suspicious",
+      "color": "orange",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_174",
+      "source": "node_44",
+      "target": "node_54",
+      "source_idx": 44,
+      "target_idx": 54,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_175",
+      "source": "node_0",
+      "target": "node_23",
+      "source_idx": 0,
+      "target_idx": 23,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_176",
+      "source": "node_24",
+      "target": "node_35",
+      "source_idx": 24,
+      "target_idx": 35,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_177",
+      "source": "node_34",
+      "target": "node_67",
+      "source_idx": 34,
+      "target_idx": 67,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_178",
+      "source": "node_14",
+      "target": "node_74",
+      "source_idx": 14,
+      "target_idx": 74,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_179",
+      "source": "node_15",
+      "target": "node_49",
+      "source_idx": 15,
+      "target_idx": 49,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_180",
+      "source": "node_75",
+      "target": "node_26",
+      "source_idx": 75,
+      "target_idx": 26,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_181",
+      "source": "node_54",
+      "target": "node_68",
+      "source_idx": 54,
+      "target_idx": 68,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_182",
+      "source": "node_99",
+      "target": "node_50",
+      "source_idx": 99,
+      "target_idx": 50,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_183",
+      "source": "node_5",
+      "target": "node_38",
+      "source_idx": 5,
+      "target_idx": 38,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_184",
+      "source": "node_32",
+      "target": "node_80",
+      "source_idx": 32,
+      "target_idx": 80,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_185",
+      "source": "node_19",
+      "target": "node_69",
+      "source_idx": 19,
+      "target_idx": 69,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_186",
+      "source": "node_25",
+      "target": "node_14",
+      "source_idx": 25,
+      "target_idx": 14,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_187",
+      "source": "node_41",
+      "target": "node_2",
+      "source_idx": 41,
+      "target_idx": 2,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_188",
+      "source": "node_62",
+      "target": "node_43",
+      "source_idx": 62,
+      "target_idx": 43,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_189",
+      "source": "node_70",
+      "target": "node_83",
+      "source_idx": 70,
+      "target_idx": 83,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_190",
+      "source": "node_6",
+      "target": "node_31",
+      "source_idx": 6,
+      "target_idx": 31,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_191",
+      "source": "node_70",
+      "target": "node_63",
+      "source_idx": 70,
+      "target_idx": 63,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_192",
+      "source": "node_93",
+      "target": "node_87",
+      "source_idx": 93,
+      "target_idx": 87,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_193",
+      "source": "node_77",
+      "target": "node_62",
+      "source_idx": 77,
+      "target_idx": 62,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_194",
+      "source": "node_55",
+      "target": "node_89",
+      "source_idx": 55,
+      "target_idx": 89,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_195",
+      "source": "node_28",
+      "target": "node_75",
+      "source_idx": 28,
+      "target_idx": 75,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_196",
+      "source": "node_65",
+      "target": "node_95",
+      "source_idx": 65,
+      "target_idx": 95,
+      "edge_type": "malicious",
+      "color": "red",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_197",
+      "source": "node_87",
+      "target": "node_1",
+      "source_idx": 87,
+      "target_idx": 1,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_198",
+      "source": "node_63",
+      "target": "node_79",
+      "source_idx": 63,
+      "target_idx": 79,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    },
+    {
+      "id": "edge_199",
+      "source": "node_6",
+      "target": "node_95",
+      "source_idx": 6,
+      "target_idx": 95,
+      "edge_type": "normal",
+      "color": "blue",
+      "weight": 1.0
+    }
+  ]
+}
