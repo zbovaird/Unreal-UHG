@@ -28,11 +28,13 @@
     },
     "os_added_timestamp": "2024-12-08T14:50:00Z",
     "user_type_distribution": {
-      "end-user": 37,
+      "end-user": 84,
       "admin": 7,
-      "server": 56
+      "server": 9
     },
-    "user_type_added_timestamp": "2024-12-08T16:20:00Z"
+    "user_type_added_timestamp": "2024-12-08T16:20:00Z",
+    "user_type_updated_timestamp": "2024-12-08T16:45:00Z",
+    "user_type_distribution_note": "Realistic enterprise distribution: majority end-users, minimal servers/admins"
   },
   "label_mapping": {
     "BENIGN": 0,
@@ -74,7 +76,7 @@
       "ip_address": "10.0.165.252",
       "hostname": "rtrts18",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_1",
@@ -93,7 +95,7 @@
       "ip_address": "172.16.97.182",
       "hostname": "monhrsf",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_2",
@@ -169,7 +171,7 @@
       "ip_address": "172.16.147.90",
       "hostname": "devsea",
       "os": "Mac",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_6",
@@ -207,7 +209,7 @@
       "ip_address": "10.0.157.139",
       "hostname": "byod06",
       "os": "Mac",
-      "user_type": "admin"
+      "user_type": "end-user"
     },
     {
       "id": "node_8",
@@ -264,7 +266,7 @@
       "ip_address": "192.168.39.163",
       "hostname": "swfn17",
       "os": "Linux",
-      "user_type": "admin"
+      "user_type": "end-user"
     },
     {
       "id": "node_11",
@@ -321,7 +323,7 @@
       "ip_address": "172.16.40.238",
       "hostname": "devhrb",
       "os": "Mac",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_14",
@@ -473,7 +475,7 @@
       "ip_address": "192.168.209.228",
       "hostname": "camfn16",
       "os": "Windows",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_22",
@@ -549,7 +551,7 @@
       "ip_address": "10.0.66.67",
       "hostname": "mobopa",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_26",
@@ -606,7 +608,7 @@
       "ip_address": "10.0.231.23",
       "hostname": "iotfn19",
       "os": "Windows",
-      "user_type": "end-user"
+      "user_type": "admin"
     },
     {
       "id": "node_29",
@@ -625,7 +627,7 @@
       "ip_address": "192.168.215.100",
       "hostname": "lbfnny",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_30",
@@ -682,7 +684,7 @@
       "ip_address": "10.0.117.125",
       "hostname": "senbk18",
       "os": "Windows",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_33",
@@ -701,7 +703,7 @@
       "ip_address": "10.0.66.96",
       "hostname": "usrprla",
       "os": "Mac",
-      "user_type": "end-user"
+      "user_type": "admin"
     },
     {
       "id": "node_34",
@@ -777,7 +779,7 @@
       "ip_address": "192.168.135.174",
       "hostname": "srvfnh",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_38",
@@ -796,7 +798,7 @@
       "ip_address": "172.16.4.94",
       "hostname": "lbhr09",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_39",
@@ -834,7 +836,7 @@
       "ip_address": "192.168.11.219",
       "hostname": "tabop06",
       "os": "Windows",
-      "user_type": "end-user"
+      "user_type": "admin"
     },
     {
       "id": "node_41",
@@ -891,7 +893,7 @@
       "ip_address": "192.168.248.80",
       "hostname": "byod11",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_44",
@@ -929,7 +931,7 @@
       "ip_address": "172.16.45.63",
       "hostname": "vpnhr14",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_46",
@@ -948,7 +950,7 @@
       "ip_address": "10.0.226.251",
       "hostname": "usrhrg",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_47",
@@ -967,7 +969,7 @@
       "ip_address": "10.0.167.246",
       "hostname": "lapatl",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "admin"
     },
     {
       "id": "node_48",
@@ -986,7 +988,7 @@
       "ip_address": "10.0.70.58",
       "hostname": "lapchi",
       "os": "Windows",
-      "user_type": "admin"
+      "user_type": "end-user"
     },
     {
       "id": "node_49",
@@ -1005,7 +1007,7 @@
       "ip_address": "172.16.252.219",
       "hostname": "apphry",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_50",
@@ -1024,7 +1026,7 @@
       "ip_address": "10.0.9.158",
       "hostname": "rtrith",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_51",
@@ -1043,7 +1045,7 @@
       "ip_address": "172.16.213.46",
       "hostname": "devhre",
       "os": "Mac",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_52",
@@ -1062,7 +1064,7 @@
       "ip_address": "192.168.251.28",
       "hostname": "webfnx",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_53",
@@ -1081,7 +1083,7 @@
       "ip_address": "172.16.67.40",
       "hostname": "mail15",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_54",
@@ -1100,7 +1102,7 @@
       "ip_address": "10.0.91.65",
       "hostname": "wifi03",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_55",
@@ -1138,7 +1140,7 @@
       "ip_address": "10.0.57.39",
       "hostname": "ctrl03",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_57",
@@ -1157,7 +1159,7 @@
       "ip_address": "10.0.248.197",
       "hostname": "dnsmgy",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_58",
@@ -1214,7 +1216,7 @@
       "ip_address": "192.168.141.254",
       "hostname": "fwpr20",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_61",
@@ -1252,7 +1254,7 @@
       "ip_address": "192.168.86.104",
       "hostname": "mail12",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_63",
@@ -1290,7 +1292,7 @@
       "ip_address": "192.168.169.239",
       "hostname": "srvop10",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_65",
@@ -1309,7 +1311,7 @@
       "ip_address": "10.0.214.101",
       "hostname": "mobhr16",
       "os": "Linux",
-      "user_type": "admin"
+      "user_type": "end-user"
     },
     {
       "id": "node_66",
@@ -1347,7 +1349,7 @@
       "ip_address": "192.168.231.65",
       "hostname": "ftpdm19",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_68",
@@ -1385,7 +1387,7 @@
       "ip_address": "192.168.239.232",
       "hostname": "tabbkh",
       "os": "Windows",
-      "user_type": "admin"
+      "user_type": "end-user"
     },
     {
       "id": "node_70",
@@ -1404,7 +1406,7 @@
       "ip_address": "192.168.208.253",
       "hostname": "fwts10",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_71",
@@ -1423,7 +1425,7 @@
       "ip_address": "172.16.51.210",
       "hostname": "ctrlchi",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_72",
@@ -1461,7 +1463,7 @@
       "ip_address": "10.0.205.15",
       "hostname": "mail07",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_74",
@@ -1480,7 +1482,7 @@
       "ip_address": "172.16.40.83",
       "hostname": "ftpfn04",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_75",
@@ -1499,7 +1501,7 @@
       "ip_address": "172.16.144.64",
       "hostname": "fwhrla",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_76",
@@ -1518,7 +1520,7 @@
       "ip_address": "172.16.249.146",
       "hostname": "ctrl18",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_77",
@@ -1537,7 +1539,7 @@
       "ip_address": "192.168.161.73",
       "hostname": "usrfnx",
       "os": "Linux",
-      "user_type": "admin"
+      "user_type": "end-user"
     },
     {
       "id": "node_78",
@@ -1575,7 +1577,7 @@
       "ip_address": "192.168.238.170",
       "hostname": "apiatl",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_80",
@@ -1594,7 +1596,7 @@
       "ip_address": "192.168.65.33",
       "hostname": "wifi10",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_81",
@@ -1613,7 +1615,7 @@
       "ip_address": "172.16.65.6",
       "hostname": "wkstsj",
       "os": "Windows",
-      "user_type": "server"
+      "user_type": "admin"
     },
     {
       "id": "node_82",
@@ -1670,7 +1672,7 @@
       "ip_address": "10.0.100.70",
       "hostname": "apiitsf",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_85",
@@ -1689,7 +1691,7 @@
       "ip_address": "172.16.90.211",
       "hostname": "devhr19",
       "os": "Mac",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_86",
@@ -1727,7 +1729,7 @@
       "ip_address": "10.0.116.240",
       "hostname": "mail09",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_88",
@@ -1746,7 +1748,7 @@
       "ip_address": "172.16.63.199",
       "hostname": "desk20",
       "os": "Windows",
-      "user_type": "end-user"
+      "user_type": "admin"
     },
     {
       "id": "node_89",
@@ -1784,7 +1786,7 @@
       "ip_address": "10.0.104.201",
       "hostname": "mailsf",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_91",
@@ -1803,7 +1805,7 @@
       "ip_address": "192.168.243.130",
       "hostname": "lbmg02",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_92",
@@ -1822,7 +1824,7 @@
       "ip_address": "10.0.97.68",
       "hostname": "dbfnchi",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_93",
@@ -1841,7 +1843,7 @@
       "ip_address": "172.16.100.126",
       "hostname": "dbtssf",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_94",
@@ -1860,7 +1862,7 @@
       "ip_address": "10.0.245.66",
       "hostname": "srvbk09",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_95",
@@ -1879,7 +1881,7 @@
       "ip_address": "172.16.148.65",
       "hostname": "srvts12",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_96",
@@ -1917,7 +1919,7 @@
       "ip_address": "10.0.36.249",
       "hostname": "wifila",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_98",
@@ -1936,7 +1938,7 @@
       "ip_address": "172.16.202.29",
       "hostname": "ftppr05",
       "os": "Windows",
-      "user_type": "server"
+      "user_type": "end-user"
     },
     {
       "id": "node_99",
@@ -1955,7 +1957,7 @@
       "ip_address": "172.16.125.9",
       "hostname": "byod04",
       "os": "Linux",
-      "user_type": "server"
+      "user_type": "end-user"
     }
   ],
   "edges": [
